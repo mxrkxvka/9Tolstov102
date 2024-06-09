@@ -66,4 +66,70 @@
         app:layout_constraintStart_toEndOf="@+id/imgLogin"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <EditText
+        android:id="@+id/tbName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="175dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgLogin" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="174dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Surname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tbName" />
+
+    <EditText
+        android:id="@+id/tbPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="174dp"
+        android:ems="10"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText2" />
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="354dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="27dp"
+        android:backgroundTint="#646464"
+        android:text="Sign Up"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="509dp" />
+
+    <CheckBox
+        android:id="@+id/cbAgree"
+        android:layout_width="349dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="27dp"
+        android:text="Согласен(-а) с условиями использованияи политикой конфидициальности"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="598dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
