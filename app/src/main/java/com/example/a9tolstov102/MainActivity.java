@@ -19,8 +19,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-
         Button btnReg = findViewById(R.id.btnSignUp);
         CheckBox checkBox = findViewById(R.id.cbAgree);
 
